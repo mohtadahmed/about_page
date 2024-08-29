@@ -22,3 +22,14 @@ body {
 }
 
 /* Header Section CSS Ends */
+
+/* Main Section CSS Starts */
+
+#uprint-title {
+    color: #F37228;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Main Section CSS Ends */
