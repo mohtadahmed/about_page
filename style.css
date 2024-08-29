@@ -1,0 +1,24 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header Section CSS Starts */
+#header-title {
+    font-weight: 200;
+    margin-top: 25px;
+}
+
+.primary-button {
+    background-color: #f47527;
+    color: white;
+    margin-top: 40px;
+}
+
+.primary-button:hover {
+    background-color: chocolate;
+    color: black;
+}
+
+/* Header Section CSS Ends */
