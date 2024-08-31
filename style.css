@@ -43,16 +43,27 @@ body {
 /* Features Section CSS Starts */
 
 .segment-section {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 55px;
 }
 
 .section-title {
     color: #F37228;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 /* Features Section CSS Starts */
+
+/* How It Works CSS Starts */
+
+.works-custom {
+    width: 25%;
+}
+
+#press-otp-img {
+    padding: 20px;
+}
+
+/* How It Works CSS Ends */
 
 /* Main Section CSS Ends */
 
@@ -76,7 +87,24 @@ body {
         font-size: 50px;
     }
 
+    .segment-section {
+        margin-top: 30px;
+    }
+
     .section-title {
-        font-size: 50px;
+        font-size: 35px;
+    }
+
+    .works-custom {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .works-custom>i {
+        margin-top: 30px;
+    }
+
+    .icon {
+        transform: rotate(90deg);
     }
 }
