@@ -42,12 +42,12 @@ body {
 
 /* Features Section CSS Starts */
 
-.features-section {
+.segment-section {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.features-title {
+.section-title {
     color: #F37228;
     font-size: 70px;
 }
@@ -76,7 +76,7 @@ body {
         font-size: 50px;
     }
 
-    .features-title {
+    .section-title {
         font-size: 50px;
     }
 }
