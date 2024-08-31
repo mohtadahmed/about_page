@@ -25,11 +25,58 @@ body {
 
 /* Main Section CSS Starts */
 
-#uprint-title {
+.setup-img {
+    width: 75%;
+}
+
+.setup-img>img {
+    width: 80%;
+}
+
+.uprint-title {
     color: #F37228;
     font-size: 100px;
     font-weight: 700;
     line-height: normal;
 }
 
+/* Features Section CSS Starts */
+
+.features-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features-title {
+    color: #F37228;
+    font-size: 70px;
+}
+
+/* Features Section CSS Starts */
+
 /* Main Section CSS Ends */
+
+
+
+/* ============================================================= */
+/* Responsive Media Query CSS */
+@media screen and (max-width: 576px) {
+
+    .setup-img {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .setup-img>img {
+        width: 100%;
+    }
+
+    .uprint-title {
+        font-size: 50px;
+    }
+
+    .features-title {
+        font-size: 50px;
+    }
+}
