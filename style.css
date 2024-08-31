@@ -65,6 +65,20 @@ body {
 
 /* How It Works CSS Ends */
 
+/* How to Use CSS Starts */
+
+.bg-black {
+    background-color: black;
+}
+
+.yt-frame {
+    width: 700px;
+    height: 390px;
+    /* width="560" height="315"  */
+}
+
+/* How to Use CSS Ends */
+
 /* Main Section CSS Ends */
 
 
@@ -106,5 +120,10 @@ body {
 
     .icon {
         transform: rotate(90deg);
+    }
+
+    .yt-frame {
+        width: 210px;
+        height: auto;
     }
 }
